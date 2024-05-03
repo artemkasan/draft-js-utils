@@ -1,6 +1,6 @@
 {
-  "name": "draft-js-import-markdown",
-  "version": "1.4.0",
+  "name": "@artemkasan/draft-js-import-markdown",
+  "version": "1.4.1",
   "description": "DraftJS: Import Markdown to ContentState",
   "main": "lib/main.js",
   "module": "esm/main.js",
@@ -15,12 +15,12 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "draft-js-import-element": "^1.4.0",
+    "@artemkasan/draft-js-import-element": "^1.4.0",
     "synthetic-dom": "^1.4.0"
   },
   "peerDependencies": {
-    "draft-js": ">=0.10.0",
-    "immutable": "3.x.x"
+    "draft-js": ">=0.11.7",
+    "immutable": "4.x.x"
   },
   "keywords": [
     "draft-js",
@@ -28,9 +28,9 @@
   ],
   "author": "sstur@me.com",
   "license": "ISC",
-  "repository": "https://github.com/sstur/draft-js-utils/tree/master/packages/draft-js-import-markdown",
+  "repository": "https://github.com/artemkasan/draft-js-utils/tree/master/packages/draft-js-import-markdown",
   "bugs": {
-    "url": "https://github.com/sstur/draft-js-utils/issues"
+    "url": "https://github.com/artemkasan/draft-js-utils/issues"
   },
-  "homepage": "https://github.com/sstur/draft-js-utils/blob/master/packages/draft-js-import-markdown/README.md"
+  "homepage": "https://github.com/artemkasan/draft-js-utils/blob/master/packages/draft-js-import-markdown/README.md"
 }

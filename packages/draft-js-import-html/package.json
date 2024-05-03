@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-import-html",
+  "name": "@artemkasan/draft-js-import-html",
   "version": "1.4.1",
   "description": "DraftJS: Import HTML to ContentState",
   "main": "lib/main.js",
@@ -17,11 +17,11 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "draft-js-import-element": "^1.4.0"
+    "@artemkasan/draft-js-import-element": "^1.4.0"
   },
   "peerDependencies": {
-    "draft-js": ">=0.10.0",
-    "immutable": "3.x.x"
+    "draft-js": ">=0.11.7",
+    "immutable": "4.x.x"
   },
   "keywords": [
     "draft-js",
@@ -39,9 +39,9 @@
     }
   ],
   "license": "ISC",
-  "repository": "https://github.com/sstur/draft-js-utils/tree/master/packages/draft-js-import-html",
+  "repository": "https://github.com/artemkasan/draft-js-utils/tree/master/packages/draft-js-import-html",
   "bugs": {
-    "url": "https://github.com/sstur/draft-js-utils/issues"
+    "url": "https://github.com/artemkasan/draft-js-utils/issues"
   },
-  "homepage": "https://github.com/sstur/draft-js-utils/blob/master/packages/draft-js-import-html/README.md"
+  "homepage": "https://github.com/artemkasan/draft-js-utils/blob/master/packages/draft-js-import-html/README.md"
 }

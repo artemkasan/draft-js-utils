@@ -6,7 +6,7 @@
  *   Add flow annotations
  */
 
-import {TextNode, ElementNode, FragmentNode, SELF_CLOSING} from 'synthetic-dom';
+import {TextNode, ElementNode, FragmentNode, SELF_CLOSING} from '@artemkasan/synthetic-dom';
 
 const hasOwnProperty = Object.prototype.hasOwnProperty;
 

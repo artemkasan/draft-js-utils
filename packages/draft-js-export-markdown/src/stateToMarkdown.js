@@ -5,7 +5,7 @@ import {
   BLOCK_TYPE,
   ENTITY_TYPE,
   INLINE_STYLE,
-} from 'draft-js-utils';
+} from '@artemkasan/draft-js-utils';
 
 import type {ContentState, ContentBlock} from 'draft-js';
 
@@ -244,7 +244,7 @@ if (!content.length) {
               content = `++${content}++`;
             }
             if (style.has(ITALIC)) {
-              content = `_${content}_`;
+              content = `*${content}*`;
             }
             if (style.has(STRIKETHROUGH)) {
               // TODO: encode `~`?

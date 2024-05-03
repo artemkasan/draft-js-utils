@@ -1,5 +1,5 @@
 {
-  "name": "synthetic-dom",
+  "name": "@artemkasan/synthetic-dom",
   "version": "1.4.0",
   "description": "Synthetic HTML DOM for use with parsing within React-RTE",
   "main": "lib/main.js",
@@ -21,9 +21,9 @@
   ],
   "author": "sstur@me.com",
   "license": "ISC",
-  "repository": "https://github.com/sstur/draft-js-utils/tree/master/packages/synthetic-dom",
+  "repository": "https://github.com/artemkasan/draft-js-utils/tree/master/packages/synthetic-dom",
   "bugs": {
-    "url": "https://github.com/sstur/draft-js-utils/issues"
+    "url": "https://github.com/artemkasan/draft-js-utils/issues"
   },
-  "homepage": "https://github.com/sstur/draft-js-utils/blob/master/packages/synthetic-dom/README.md"
+  "homepage": "https://github.com/artemkasan/draft-js-utils/blob/master/packages/synthetic-dom/README.md"
 }

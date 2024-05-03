@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-utils",
+  "name": "@artemkasan/draft-js-utils",
   "version": "1.4.1",
   "description": "Collection of utilities for DraftJS",
   "main": "lib/main.js",
@@ -15,8 +15,8 @@
     "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
-    "draft-js": ">=0.10.0",
-    "immutable": "3.x.x"
+    "draft-js": ">=0.11.7",
+    "immutable": "4.x.x"
   },
   "keywords": [
     "draft-js",
@@ -43,9 +43,9 @@
     }
   ],
   "license": "ISC",
-  "repository": "https://github.com/sstur/draft-js-utils/tree/master/packages/draft-js-utils",
+  "repository": "https://github.com/artemkasan/draft-js-utils/tree/master/packages/draft-js-utils",
   "bugs": {
-    "url": "https://github.com/sstur/draft-js-utils/issues"
+    "url": "https://github.com/artemkasan/draft-js-utils/issues"
   },
-  "homepage": "https://github.com/sstur/draft-js-utils/blob/master/packages/draft-js-utils/README.md"
+  "homepage": "https://github.com/artemkasan/draft-js-utils/blob/master/packages/draft-js-utils/README.md"
 }
